@@ -61,7 +61,6 @@ nav a:hover{
 	display: grid;
 	gap: 4em;
 	padding: 30px;
-	
 }
 
 @media(min-width: 560px){
@@ -81,11 +80,14 @@ nav a:hover{
 	height: 180px;
 	width: 280px;
 	box-sizing: border-box;
-	border: 2px solid #000000;
+	border: 3px solid #000000;
+	border-radius: 10px;
+	transition: transform 500ms;
 }
 
 .img-conquistas:hover{
-	border-color: #C78C19
+	border-color: #C78C19;
+	transform: scale(2);
 }
 
 .instituicao{
@@ -101,13 +103,6 @@ nav a:hover{
 .conquistas li{
 	padding: 10px;
 	text-align: center;
-}
-
-.perfil-descricao{
-	font-size: 20px;
-	margin-top: 10px;
-	text-indent: 1.5em;
-	text-align: justify;
 }
 
 
